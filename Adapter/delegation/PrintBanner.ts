@@ -1,5 +1,5 @@
-import { Print } from "./Print";
-import { Banner } from "./Banner";
+import { Print } from "./print";
+import { Banner } from "./banner";
 export class PrintBanner extends Print {
   private banner: Banner;
   constructor(str: string) {

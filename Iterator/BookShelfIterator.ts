@@ -1,6 +1,6 @@
-import { Iterator } from "./Iterator";
-import { BookShelf } from "./BookShelf";
-import { Book } from "./Book";
+import { Iterator } from "./iterator";
+import { BookShelf } from "./bookShelf";
+import { Book } from "./book";
 
 export class BookShelfIterator implements Iterator {
   private index: number;

@@ -1,4 +1,4 @@
-import { AbstractDisplay } from "./AbstractDisplay";
+import { AbstractDisplay } from "./abstractDisplay";
 export class StringDisplay extends AbstractDisplay {
   private str: string;
   private width: number;

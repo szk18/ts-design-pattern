@@ -1,5 +1,5 @@
-import { Print } from "./Print";
-import { PrintBanner } from "./PrintBanner";
+import { Print } from "./print";
+import { PrintBanner } from "./printBanner";
 
 const p: Print = new PrintBanner("hello");
 p.printWeak();

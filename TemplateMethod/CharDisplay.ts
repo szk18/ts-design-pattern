@@ -1,4 +1,4 @@
-import { AbstractDisplay } from "./AbstractDisplay";
+import { AbstractDisplay } from "./abstractDisplay";
 
 export class CharDisplay extends AbstractDisplay {
   private ch: string;
